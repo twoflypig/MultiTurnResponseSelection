@@ -1,3 +1,30 @@
+# Quick start
+
+## Download data 
+
+Download utterance, response, dict ,embedding from https://1drv.ms/u/s!AtcxwlQuQjw1jGn5kPzsH03lnG6U  , then unzip it under data path
+
+
+
+## Running
+
+```
+cd tensorflow_src
+python SCN.py
+```
+## Data format
+
+
+
+# Motivation
+
+1. Learning to ingore and focus on some parts that some users may be not interested in.
+
+2. Make the code easy to use
+
+
+The source code comes from origin [rep](https://github.com/MarkWuNLP/MultiTurnResponseSelection)
+
 # Douban Conversation Corpus
 
 ## Data set
