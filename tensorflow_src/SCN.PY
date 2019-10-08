@@ -4,11 +4,11 @@ import utils
 from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 import Evaluate
-
-embedding_file = r"D:\data\Ubuntu\embedding.pkl"
-evaluate_file = r"D:\data\Ubuntu\Evaluate.pkl"
-response_file =r"D:\data\Ubuntu\responses.pkl"
-history_file = r"D:\data\Ubuntu\utterances.pkl"
+import os 
+embedding_file = r"../data/embedding.pkl"
+evaluate_file = r"../data/Evaluate.pkl"
+response_file =r"../data/responses.pkl"
+history_file = r"../data/utterances.pkl"
 
 class SCN():
     def __init__(self):
