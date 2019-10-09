@@ -14,6 +14,13 @@ python SCN.py
 ```
 ## Data format
 
+1. utterances.pkl
+A pair like [history, true_response], where history[i] is the history of [u1, u2, u3,...,un] for the ture response ture_response[i]
+
+2. responses.pkl
+
+A list of utterances, used for candidate responses.
+
 
 
 # Motivation
