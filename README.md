@@ -22,6 +22,14 @@ A pair like [history, true_response], where history[i] is the history of [u1, u2
 A list of utterances, used for candidate responses.
 
 
+## Results:
+epoch = 7
+R2: 0.72988
+R1: 0.92514
+loss: 0.22563
+
+Test on Tensorflow 1.13, python 3
+
 
 # Motivation
 
